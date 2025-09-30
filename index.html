@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="./ressources/icons-pack/046-kimono.svg">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Kyoto</title>
+
+</head>
+<body>
+  <header id="accueil">
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#loisirs">Loisirs</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero-section">
+      <h1 class="main-heading">Découvrez Kyoto</h1>
+      <button class="hero-btn hero-btn-1">
+        <span>Activités</span>
+      </button>
+      <button class="hero-btn hero-btn-2">
+        <span>Contact</span>
+      </button>
+    </div>    
+  </header>
+ 
+  <main>
+    <section class="container activities-section" id="activities">
+        <div class="negativ-container">
+          <div class="activities-heading">
+            <p class="surtitle">Activités Populaires</p>
+            <h2 class="heading-2">Que faire à Kyoto ?</h2>
+          </div>
+          <div class="activity-container">          
+            <div class="activity-description activity-1">
+              <img src="ressources/temple-activity.jpg" alt="temples">
+              <div class="activity-info">
+                <h3>Visitez de splendides temples.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor explicabo laudantium suscipit perferendis, quos fugiat doloribus! Soluta eum molestias ex nostrum, quibusdam maxime veniam.</p>
+                <a class="activity-link" href="#contact">Plannifier un tour</a>
+              </div>
+            </div>  
+          <div class="activity-description activity-2">
+            <img src="./ressources/asian-food.jpg">
+            <div class="activity-info">
+              <h3 class>Dégustez de délicieux mets.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor explicabo laudantium suscipit perferendis, quos fugiat doloribus! Soluta eum molestias ex nostrum, quibusdam maxime veniam.</p>
+              <a class="activity-link" href="#contact">Plannifier un tour</a>
+            </div>
+          </div>
+          <div class="activity-description activity-3">
+            <img src="./ressources/japan-life.jpg">
+            <div class="activity-info">
+              <h3 class>Vivez comme un local.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor explicabo laudantium suscipit perferendis, quos fugiat doloribus! Soluta eum molestias ex nostrum, quibusdam maxime veniam.</p>
+              <a class="activity-link" href="#contact">Plannifier un tour</a>
+            </div>
+          </div>             
+        </div>
+      </section>
+
+    <div class="parallax">
+        <p class="parallax-japanese-text">冒険に行く</p>
+        <p class="parallax-text">Partez à l'aventure</p>
+    </div>
+
+    <section class="container tours-section" id="tarifs">
+      <div class="tours-heading">
+        <p> Les différents tours</p>
+        <h2>Choisissez ce qui vous convient</h2>
+      </div>
+      <div class="cards-container">
+        <div class="pricing-card card-1">
+          <div class="card-top">
+            <span>Basique</span>
+            <span class="card-top-line">-</span>
+            <span>20€</span>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+              <li>✅ Visite à pied</li>
+              <li>✅ Sites sacrés</li>
+              <li>✅ Cours de cuisine</li>
+            </ul>
+          </div>         
+            <a href="#">Réserver</a>            
+        </div>
+        <div class="pricing-card card-2">
+          <div class="card-top">
+            <span>Incroyable</span>
+            <span class="card-top-line">-</span>
+            <span>75€</span>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+              <li>✅ Visite à pied</li>
+              <li>✅ Sites sacrés</li>
+              <li>✅ Cours de cuisine</li>
+              <li>✅ Visite nocturne</li>
+              <li>✅ Restaurant gastronomique</li>
+              <li>✅ Circuit privé</li>
+            </ul>
+          </div>         
+            <a href="#">Réserver</a>            
+        </div>
+        <div class="pricing-card card-3">
+          <div class="card-top">
+            <span>Fun</span>
+            <span class="card-top-line">-</span>
+            <span>45€</span>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <ul>
+              <li>✅ Visite à pied</li>
+              <li>✅ Sites sacrés</li>
+              <li>✅ Cours de cuisine</li>
+              <li>✅ Viste nocturne</li>
+            </ul>
+          </div>         
+            <a href="#">Réserver</a>            
+        </div>
+        <img src="ressources/shadow.png" alt="" class="shadow">
+      </div>
+    </section>
+
+    <section class="contacts-section" id="contacts">
+      <div class="contacts-container">
+        <div class="contacts-heading">
+          <p>Partageons de bons moments</p>
+          <h2>Voilà où tu peux me contacter</h2>
+        </div>
+        
+          
+            <div class="contacts-list">
+              <div class="contacts-links mail-contact">
+                <span class="mail-contact">kyoto_tour@gmail.com</span>
+                <img src="./ressources/icons/email-envelope.svg" alt="">
+              </div>
+              <div class="contacts-links ig-contact">
+                <a href="#">kyoto_tour_IG</a>
+                <img src="./ressources/icons/instagram.svg" alt="">
+              </div>
+              <div class="contacts-links fb-contact">
+                <a href="#">kyoto_tour_FB</a>
+                <img src="./ressources/icons/facebook.svg" alt="">
+              </div>
+            </div>
+                     
+        
+      </div>
+
+    </section>
+
+    <footer>
+      <a href="#">Tous droits réservés</a>
+    </footer>
+
+
+
+
+    
+   
+  </main>    
+  </body>
+</html>

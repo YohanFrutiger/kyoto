@@ -163,7 +163,7 @@
 .negative-container {
   background-color: var(--active-almond);
   transform: translateY(-100px);
-  min-width: 500px;
+  width: 100%;
   max-width: 800px;
   border-radius: 25px;
   display: flex;
@@ -194,6 +194,7 @@
   margin-bottom: 20px;
 }
 .activity-description {
+  width: 100%;
   min-width: 500px;
   border-radius: 3px;
   background-color: var(--dark-base);
@@ -304,7 +305,7 @@
   flex-direction: column; 
   justify-content: space-between;
   width: 275px;
-  height: 400px;
+  min-height: 400px;
   background-color: var(--light-orange);
   border: 2px solid var(--dark-base);
   border-radius: 5px;

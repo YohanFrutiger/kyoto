@@ -156,7 +156,7 @@
 /* Activities */
 .activities-section {
   background-image: var(--striped-pinky);
-  width: 100;
+  width: 100%;
   display: flex;
   justify-content: center;
 }

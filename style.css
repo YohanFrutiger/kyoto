@@ -161,7 +161,7 @@
   justify-content: center;
 }
 .negative-container {
-  background-color: var(--active-almond);
+  background-color: var(--light-white);
   transform: translateY(-100px);
   width: 100%;
   /* max-width: 800px; */

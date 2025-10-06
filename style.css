@@ -183,7 +183,7 @@
   background-image: var(--striped-pinky);
 }
 .negative-container {
-  background-color: var(--active-almond);
+  background-color: var(--light-white);
   transform: translateY(-100px);
   max-width: 1000px;
   border-radius: 25px;
@@ -485,6 +485,7 @@
   .card-1, .card-2, .card-3 {
     transform: none;
     margin-bottom: 20px;
+    width: 100%;
   }
   .shadow {
     display: none;
